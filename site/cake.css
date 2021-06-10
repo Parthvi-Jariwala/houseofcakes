@@ -1,0 +1,107 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #c4f6b2;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    z-index: 9999;
+}
+header h1{
+    color: #901f4d;
+    float: left;
+    width: 300px;
+    padding-top: 5px ;
+}
+header nav{
+    margin: 10px 0 10px;
+    float: right;
+}
+header li{
+    display: inline;
+    padding-right: 40px;
+}
+header a{
+    color: #901f4d;
+    text-decoration: none;
+    font-weight: 600;
+}
+section{
+    background-color: #fffbdb;
+    width: 100%;
+    text-align: center;
+    top: 80px;
+    position: relative;
+}
+section li{
+    padding: 10px;
+    display: inline;
+    margin-left: 30px;
+}
+section .cake1, .cake2{
+    display: flex;
+    margin-left: 15%;   
+} 
+section .cake2{
+    margin-bottom: 80px;
+}
+section img{
+    width: 300px;
+    height: 350px;   
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section img:hover, video:hover{
+    transform:scale(1.1);
+    transition: all .5s ease-in-out;
+}
+section h3{
+    color: #9e325e;
+}
+video{
+    width: 300px;
+    height: 400px;
+    display: inline;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #daf9e9;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+footer h5,a{
+    font-weight: normal;
+    text-decoration:none;
+}
+footer a{
+    color: black;
+    font-size: 14px;
+}
+footer span{
+    display: flex;
+}
+footer .insta img{
+    width: 20px;
+    height: 20px;
+}
+footer .insta{
+    margin-left: 46%;
+}
+footer .email img{
+    width: 15px;
+    height: 12px;
+    margin-top: 3px;
+}
+footer .email{
+    margin-left: 44%;
+}
+footer .email h5{
+    padding-left: 3px;
+}
+
